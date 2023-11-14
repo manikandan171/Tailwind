@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/dist/output.css" rel="stylesheet">
+      </head>
+<body class="bg-gray-100">
+
+
+<div class="container mx-auto mt-8 p-4">
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-3xl font-semibold mb-4">Order Now</h2>
+        <form>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold" for="bike-model">Bike Model</label>
+                <select id="bike-model" name="bike-model" class="w-full p-2 border border-gray-300 rounded-md">
+                    <option value="mountain">Mountain Bike</option>
+                    <option value="road">Road Bike</option>
+                    <option value="hybrid">Hybrid Bike</option>
+                    <option value="city">City Bike</option>
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold" for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" class="w-full p-2 border border-gray-300 rounded-md">
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold" for="customer-name">Your Name</label>
+                <input type="text" id="customer-name" name="customer-name" class="w-full p-2 border border-gray-300 rounded-md">
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold" for="customer-email">Your Email</label>
+                <input type="email" id="customer-email" name="customer-email" class="w-full p-2 border border-gray-300 rounded-md">
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold" for="customer-phone">Your Phone Number</label>
+                <input type="tel" id="customer-phone" name="customer-phone" class="w-full p-2 border border-gray-300 rounded-md">
+            </div>
+
+            <a href="lastpage.html" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full inline-block transition duration-300 ease-in-out">
+                Order Now
+            </a>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
